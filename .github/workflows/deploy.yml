@@ -1,0 +1,44 @@
+# Deploys to WP Engine through the shared workflow in CreativeFruitBowl/wpe-deploy
+# (see its README). No staging install: pushes don't deploy anywhere.
+# Production (statesideapm) by hand only, from main, dry run by default.
+
+name: Deploy to WP Engine
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['.github/**', 'docs/**', '**.md', '.deployignore']
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Which installs'
+        type: choice
+        options: [staging, production, both]
+        default: production
+      mode:
+        description: 'dry-run lists what would change and writes nothing; deploy copies the files'
+        type: choice
+        options: [dry-run, deploy]
+        default: dry-run
+      confirm:
+        description: 'For a real production deploy, type: deploy pearfect.child.stateside-apm to live'
+        type: string
+        required: false
+
+# Never two deploys of this repo at once, and never cancelled halfway.
+concurrency:
+  group: wpe-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    uses: CreativeFruitBowl/wpe-deploy/.github/workflows/deploy.yml@v1
+    with:
+      remote_path: wp-content/themes/ollie-child/
+      staging_installs: '[]'
+      production_installs: '["statesideapm"]'
+      production_branch: main
+      target: ${{ inputs.target }}
+      mode: ${{ inputs.mode }}
+      confirm: ${{ inputs.confirm }}
+    secrets: inherit
