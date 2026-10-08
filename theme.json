@@ -1,0 +1,291 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+	"version": 3,
+	"settings": {
+		"typography": {
+			"fontFamilies": {
+				"theme": [],
+				"custom": [
+					{
+						"name": "Bricolage Grotesque",
+						"slug": "bricolage-grotesque",
+						"fontFamily": "\"Bricolage Grotesque\", sans-serif",
+						"fontFace": [
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvlyMgvs-wJDtw.woff2",
+								"fontWeight": "800",
+								"fontStyle": "normal",
+								"fontFamily": "\"Bricolage Grotesque\""
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvSniyMgvs-wJDtw.woff2",
+								"fontWeight": "500",
+								"fontStyle": "normal",
+								"fontFamily": "\"Bricolage Grotesque\""
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZviyMgvs-wJDtw.woff2",
+								"fontWeight": "200",
+								"fontStyle": "normal",
+								"fontFamily": "\"Bricolage Grotesque\""
+							}
+						]
+					},
+					{
+						"name": "Inter",
+						"slug": "inter",
+						"fontFamily": "Inter, sans-serif",
+						"fontFace": [
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2",
+								"fontWeight": "800",
+								"fontStyle": "normal",
+								"fontFamily": "Inter"
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZ1rib2Bg-4.woff2",
+								"fontWeight": "300",
+								"fontStyle": "normal",
+								"fontFamily": "Inter"
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2",
+								"fontWeight": "400",
+								"fontStyle": "normal",
+								"fontFamily": "Inter"
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTch9thiJ-Ek-7MeA.woff2",
+								"fontWeight": "300",
+								"fontStyle": "italic",
+								"fontFamily": "Inter"
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dthiJ-Ek-7MeA.woff2",
+								"fontWeight": "400",
+								"fontStyle": "italic",
+								"fontFamily": "Inter"
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdxhiJ-Ek-7MeA.woff2",
+								"fontWeight": "800",
+								"fontStyle": "italic",
+								"fontFamily": "Inter"
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2",
+								"fontWeight": "500",
+								"fontStyle": "normal",
+								"fontFamily": "Inter"
+							},
+							{
+								"src": "https://www.statesideapm.com/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc69thiJ-Ek-7MeA.woff2",
+								"fontWeight": "500",
+								"fontStyle": "italic",
+								"fontFamily": "Inter"
+							}
+						]
+					}
+				]
+			}
+		},
+		"color": {
+			"gradients": {
+				"theme": [
+					{
+						"name": "Purple",
+						"slug": "purple",
+						"gradient": "linear-gradient(45deg,rgb(83,38,128) 0%,rgb(84,37,131) 100%)"
+					},
+					{
+						"name": "Blue",
+						"slug": "blue",
+						"gradient": "linear-gradient(45deg,rgb(237,109,29) 0%,rgb(245,156,26) 100%)"
+					},
+					{
+						"name": "Pink",
+						"slug": "pink",
+						"gradient": "linear-gradient(135deg, #FF007A, #FF81BD)"
+					},
+					{
+						"name": "Black",
+						"slug": "black",
+						"gradient": "linear-gradient(135deg, #14111E, #4B4462)"
+					},
+					{
+						"name": "Heat",
+						"slug": "heat",
+						"gradient": "linear-gradient(135deg, #F32758, #FFC581)"
+					}
+				],
+				"custom": [
+					{
+						"color": "#000",
+						"name": "Dark to brand purple",
+						"slug": "custom-dark-to-brand-purple",
+						"gradient": "linear-gradient(135deg,rgb(58,38,101) 0%,rgb(84,37,131) 100%)"
+					}
+				]
+			},
+			"palette": {
+				"custom": [
+					{
+						"color": "#3a2665",
+						"name": "Purple: Darker",
+						"slug": "custom-purple-darker"
+					},
+					{
+						"color": "#ab87bd",
+						"name": "Purple: Lighter",
+						"slug": "custom-purple-lighter"
+					},
+					{
+						"color": "#77559f",
+						"name": "Purple: Medium",
+						"slug": "custom-purple-medium"
+					},
+					{
+						"color": "#f18318",
+						"name": "Orange: Medium",
+						"slug": "custom-orange-medium"
+					},
+					{
+						"color": "#ed6d1d",
+						"name": "Orange: Dark",
+						"slug": "custom-orange-dark"
+					},
+					{
+						"color": "#f59c1a",
+						"name": "Orange: Light",
+						"slug": "custom-orange-light"
+					},
+					{
+						"color": "#ffbc79",
+						"name": "Orange: Lighter",
+						"slug": "custom-orange-lighter"
+					}
+				],
+				"theme": [
+					{
+						"name": "Primary",
+						"slug": "primary",
+						"color": "#542583"
+					},
+					{
+						"name": "Main",
+						"slug": "main",
+						"color": "#14111f"
+					},
+					{
+						"name": "Secondary",
+						"slug": "secondary",
+						"color": "#636381"
+					},
+					{
+						"name": "Main Accent",
+						"slug": "main-accent",
+						"color": "#dbbedc"
+					},
+					{
+						"name": "Primary Accent",
+						"slug": "primary-accent",
+						"color": "#f6eaf5"
+					},
+					{
+						"name": "Tertiary",
+						"slug": "tertiary",
+						"color": "#f6f6fc"
+					},
+					{
+						"name": "Border Light",
+						"slug": "border-light",
+						"color": "#e2e6ea"
+					},
+					{
+						"name": "Border Dark",
+						"slug": "border-dark",
+						"color": "#444B57"
+					},
+					{
+						"name": "Base",
+						"slug": "base",
+						"color": "#fff"
+					}
+				]
+			}
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"lineHeight": "1.6",
+			"fontStyle": "normal",
+			"fontWeight": "400"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--bricolage-grotesque)",
+					"letterSpacing": "-0.015em"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--bricolage-grotesque)",
+					"lineHeight": "1.15",
+					"letterSpacing": "-0.02em"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--bricolage-grotesque)"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"fontSize": "var(--wp--preset--font-size--base)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)"
+				}
+			}
+		},
+		"css": "/* Sub menu styles */\n\n@media (min-width: 600px) {\n    .wp-block-navigation .has-child .wp-block-navigation__submenu-container {\n        border-radius: 0;\n        font-weight: normal;\n        width: 17rem !important;\n        margin-left: calc((var(--wp--preset--spacing--medium) * -1) / 2);\n        border-top: 1rem solid var(--wp--preset--color--primary) !important;\n        border-bottom: 4px solid var(--wp--preset--color--primary) !important;\n    }\n\n\n    .wp-block-navigation .has-child .wp-block-navigation__submenu-container a.wp-block-navigation-item__content {\n        font-size: var(--wp--preset--font-size--base) !important;\n    }\n\n\n    header .wp-block-navigation :where(.wp-block-navigation__submenu-container) li:first-child {\n        padding-top: calc(var(--wp--preset--spacing--small) * 0.66);\n    }\n\n    header .wp-block-navigation :where(.wp-block-navigation__submenu-container) li:last-child {\n        padding-bottom: calc(var(--wp--preset--spacing--small) * 0.66);\n    }\n}\n\n\n.wp-block-navigation .wp-block-navigation__submenu-icon {\n    margin: -6px 0 0 8px;\n}\n\n\n\n\n\n/* Fix submenu toggle icon */\n\nheader .wp-block-navigation :where(.wp-block-navigation__submenu-container) a, \nheader .wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-block-navigation-submenu__toggle {\n    padding: 12px 26px !important;\n}\n\n\n\n\n\n/* Hover effect for main nav */\n\n.wp-block-navigation :where(a),\n.wp-block-navigation :where(a:active),\n.wp-block-navigation :where(a:focus) {\n    text-decoration: underline;\n    text-decoration-color: transparent;\n    transition: ease-in-out 240ms all;\n}\n\n\n.wp-block-navigation :where(a:hover) {\n    text-decoration-color: currentColor;\n    color: var(--wp--preset--color--custom-fruity-orange-dark) !important;\n}\n\n\n\n/* Mobile subnav positioning  */\n\n@media (max-width: 600px) {\n    .is-menu-open.has-modal-open ul.wp-block-navigation-submenu .wp-block-navigation-item__content {\n        padding: 4px 0 !important;\n        font-weight: normal;\n    }\n\n    .is-menu-open.has-modal-open .wp-block-navigation-item .wp-block-navigation__submenu-container {\n        margin: 0 0 var(--wp--preset--spacing--medium);\n        padding: 0 0 0 var(--wp--preset--spacing--medium) !important;\n    }\n\n    .is-menu-open.has-modal-open .wp-block-navigation__container ul li a:before {\n        left: calc(var(--wp--preset--spacing--medium) * -1);\n    }\n}\n\n\n\n\n\n/**\n * Transitions on all links\n */\n\na {\n    transition: ease-in-out 250ms all;\n}\n\n\n\n\n\n/**\n * Utility class\n */\n\n.u-align-items-normal {\n    align-items: normal;\n}\n\n\n.u-full-height {\n    height: 100%;\n}\n\n\n\n\n\n/**\n * Align terms\n */\n\n.wp-block-post.type-knowledge-base .wp-block-group-is-layout-flex {\n    align-items: flex-start;\n}\n\n\n\n\n\n/**\n * Formidable checkboxes\n */\n\n.frm_style_formidable-style.with_frm_style p.description, \n.frm_style_formidable-style.with_frm_style div.description, \n.frm_style_formidable-style.with_frm_style div.frm_description, \n.frm_style_formidable-style.with_frm_style .frm-show-form > div.frm_description, \n.frm_style_formidable-style.with_frm_style .frm_error, \n.frm_style_formidable-style.with_frm_style .frm_pro_max_limit_desc {\n    margin: 1rem 0 0;\n    font-size: var(--wp--preset--font-size--small);\n}\n\n\n.with_frm_style .frm_radio label, \n.with_frm_style .frm_checkbox label {\n    font-size: var(--wp--preset--font-size--small);\n    color: #444444;\n}\n\n\n.with_frm_style .frm_checkbox label input[type=checkbox], \n.with_frm_style .frm_radio label input[type=radio] {\n    margin: -0.25rem 0.5rem 0 0;\n}\n\n\n.frm_form_field .frm_checkbox,\n.frm_form_field .frm_radio {\n    margin: 0.25rem 0;\n}\n\n\n\n\n\n/**\n * Specific Formidable fields\n */\n\n/* Finance options checkboxes */\n\n[id=\"frm_field_97_container\"] .frm_checkbox {\n    width: 48%;\n}",
+		"blocks": {
+			"core/button": {
+				"variations": {
+					"button-brand-alt": {
+						"color": {
+							"text": "var(--wp--preset--color--primary)",
+							"background": "var(--wp--preset--color--primary-accent)"
+						}
+					},
+					"button-brand": {
+						"spacing": {
+							"padding": {
+								"left": "var(--wp--preset--spacing--medium)",
+								"right": "var(--wp--preset--spacing--medium)"
+							}
+						},
+						"border": {
+							"radius": "100px"
+						}
+					}
+				}
+			}
+		}
+	},
+	"customTemplates": [
+		{
+			"name": "full-width-post",
+			"title": "Full width post",
+			"postTypes": [
+				"post"
+			]
+		}
+	]
+}
